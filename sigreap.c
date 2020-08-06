@@ -141,7 +141,6 @@ static void loop() {
 	}
 
 	while (active(procfs)) {
-		reap();
 		pause();
 		errno = 0;
 	}
