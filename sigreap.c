@@ -18,7 +18,6 @@
 
 static pid_t childpids[NMAXPIDS+1];
 static int lastexitcode;
-static sig_atomic_t reapagain;
 
 __attribute__((noreturn))
 static void die(const char *what) {
