@@ -1,15 +1,11 @@
 #include <errno.h>
 #include <fcntl.h>
-#include <libgen.h>
 #include <limits.h>
 #include <signal.h>
-#include <stdarg.h>
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 #include <sys/prctl.h>
-#include <sys/types.h>
 #include <sys/wait.h>
 #include <unistd.h>
 
